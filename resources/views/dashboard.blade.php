@@ -8,7 +8,7 @@
             @endif
         </h1>
         <p>
-            WELCOME, {{ Auth::user()->name }} 
+            Welcome, {{ Auth::user()->name }} 
             (
                 @if(Auth::user()->role == 'admin')
                     <strong>Admin</strong>
